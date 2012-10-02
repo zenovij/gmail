@@ -5,3 +5,12 @@
     <italic>fine.</italic>
 
 </source>
+
+<script>
+XSLTransform(
+"proba.xml",
+"proba.xsl",
+function (data) {
+document.body.appendChild(data);
+})
+</script>
